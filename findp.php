@@ -1,4 +1,5 @@
 <?php
+/* db2_pdo v1.0  @Shinjia  #2022/07/19 */
 
 $html = <<< HEREDOC
 <button onclick="history.back();">返回</button>

@@ -1,5 +1,5 @@
 <?php
-/* db_pdo2 v1.0  @Shinjia  #2022/07/17 */
+/* db2_pdo v1.0  @Shinjia  #2022/07/19 */
 
 $page = isset($_GET['page']) ? $_GET['page'] : 1;   // 目前的頁碼
 $nump = isset($_GET['nump']) ? $_GET['nump'] : 10;   // 每頁的筆數

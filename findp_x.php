@@ -1,5 +1,5 @@
 <?php
-/* db2_pdo v1.0  @Shinjia  #2022/07/19 */
+/* db2_pdo v1.0  @Shinjia  #2022/07/22 */
 
 // 含分頁之資料列表
 
@@ -58,6 +58,7 @@ catch(PDOException $e) {
 }
 
 $page = ($page<=$total_page) ? $page : $total_page;  // 頁數超過時，維持在最後一頁
+$page = ($page<=0) ? 1 : $page;
 
 // SQL 語法：分頁資訊
 $sqlstr = "SELECT * FROM person ";

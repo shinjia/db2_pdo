@@ -1,5 +1,5 @@
 <?php
-/* db2_pdo v1.0  @Shinjia  #2022/07/19 */
+/* db2_pdo v1.0  @Shinjia  #2022/07/23 */
 
 // 資料庫連接的重要參數
 define('DB_SERVERIP', 'localhost');
